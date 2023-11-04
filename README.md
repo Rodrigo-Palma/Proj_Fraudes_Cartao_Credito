@@ -1,1 +1,13 @@
-# Projeto-Dectec-o-de-Fraudes-em-Cart-es-de-Cr-dito
+# Projeto: Detecção de Fraudes em transações de Cartão de Crédito
+
+https://github.com/Rodrigo-Palma/Proj_Fraudes_Cartao_Credito/blob/main/proj_fraude_cartao_credito.ipynb
+
+A crescente popularidade do uso de cartões de crédito para transações financeiras trouxe inúmeros benefícios, simplificando as compras e transações eletrônicas. No entanto, essa comodidade também abriu portas para uma variedade de ameaças, das quais a fraude em cartões de crédito é uma das mais prevalentes e prejudiciais. Detectar transações fraudulentas é um desafio constante para instituições financeiras e empresas que processam transações eletrônicas.
+
+Este projeto de Data Science tem como objetivo abordar um problema crítico no domínio da segurança financeira: a detecção de fraudes em cartões de crédito. O desafio central reside na gestão de um conjunto de dados extremamente desbalanceados, onde a grande maioria das transações é legítima (sem fraude), enquanto as transações fraudulentas são raras. Esse desequilíbrio torna o desenvolvimento de modelos de detecção de fraudes uma tarefa complexa.
+
+Para enfrentar esse desafio, empregaremos técnicas de undersampling e oversampling, que nos permitirão criar um conjunto de dados balanceado, onde o número de transações fraudulentas e não fraudulentas é aproximadamente igual. Isso permitirá que nossos modelos de aprendizado de máquina sejam treinados de forma mais eficaz e capazes de identificar com precisão as transações fraudulentas, sem negligenciar as transações legítimas.
+
+Neste projeto de detecção de fraude em cartões de crédito, foram implementadas estratégias essenciais para lidar com dados extremamente desbalanceados e avaliar o desempenho do modelo. O balanceamento de classes foi abordado por meio de técnicas de oversampling (SMOTE) e undersampling (Random UnderSampling), permitindo que o modelo aprenda de forma mais equitativa. Além disso, a validação cruzada (ShuffleSplit) foi utilizada para avaliar o desempenho dos modelos de maneira robusta. Também foi realizada a remoção de outliers na classe com fraude, focando nas instâncias mais representativas.
+
+A análise dos resultados demonstrou que diferentes algoritmos, como Logistic Regression, Support Vector Classifier, KNears Neighbors e DecisionTree Classifier, apresentaram desempenho notável na detecção de fraudes. As métricas de avaliação, como precisão, recall e F1-score, foram calculadas para cada modelo, fornecendo uma visão abrangente do seu desempenho.
